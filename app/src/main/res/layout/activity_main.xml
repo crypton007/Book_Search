@@ -32,11 +32,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/keyword"
             android:hint="Search Book"/>
-        <ImageView
+        <android.support.design.widget.FloatingActionButton
             android:id="@+id/find"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.5"
+            android:layout_weight="0.8"
             android:src="@drawable/ic_search_black_24dp"/>
     </LinearLayout>
 
